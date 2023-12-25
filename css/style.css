@@ -278,58 +278,6 @@ h6,
     }
 }
 
-
-.box {
-    background-color: black;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-p {
-    font-size: 17px;
-    align-items: center;
-}
-.box a {
-    display: inline-block;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 5px;
-}
-.modal {
-    align-items: center;
-    display: flex;
-    justify-content: center; 
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: transparent;
-    transition: all 0.4s;
-    visibility: hidden;
-    opacity: 0;
-}
-.content {
-    position: absolute;
-    background: white;
-    width: 350px;
-    padding: 1em 2em;
-    border-radius: 4px;
-} 
-.modal:target {
-    visibility: visible;
-    opacity: 1;
-}
-.box-close {
-    position: absolute;
-    top: 0;
-    right: 15px;
-    color: #000000;
-    text-decoration: none;
-    font-size: 30px;
-}
-
 /*** Feature ***/
 .feature-item {
     transition: .5s;

@@ -312,7 +312,7 @@
                                 </a>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <a href="#popup-box" class="d-flex bg-primary-gradient rounded py-3 px-4">
+                                <a href="javascript:void(0)" onclick="myalert()" class="d-flex bg-primary-gradient rounded py-3 px-4">
                                     <i class="fab fa-github fa-3x text-white flex-shrink-0"></i>
                                     <div class="ms-3">
                                         <p class="text-white mb-0">Available On</p>
@@ -320,19 +320,19 @@
                                     </div>
                                 </a>
                             </div>
-                            <div id="popup-box" class="modal">
-                                <div class="content">
-                                    <h1 style="color: green;">
-                                        Hello GeeksForGeeks !
-                                    </h1>
-                                    <b>
-                                        <p>Never Give Up !</p>
-                                    </b>
-                                    <a href="#" class="box-close">
-                                        ×
-                                    </a>
-                                </div>
-                            </div>
+                            <script>
+                                function myalert() {
+                                    var result = confirm("Welcome, Complete the Task \n" +
+                                        "Complete the 50 stars on this repo 🌟 \n" +
+                                        "Then I will publish the source code😁\n\nDo you want to visit the repository?");
+                                    if (result) {
+                                        // Open the link in a new tab
+                                        window.open("https://github.com/VikramadityaDev/Reel-Grab", "_blank");
+                                    } else {
+                                        alert("You chose not to visit the repository.");
+                                    }
+                                }
+                            </script>                            
                         </div>
                     </div>
                 </div>
